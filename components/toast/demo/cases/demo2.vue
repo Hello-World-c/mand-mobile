@@ -1,10 +1,11 @@
 <template>
   <div class="md-example-child md-example-child-toast md-example-child-toast-2">
-    <md-button @click="showSucceedToast">失败</md-button>
+    <md-button @click="showSucceedToast">失败测试失败的长度123456789012323232323</md-button>
   </div>
 </template>
 
-<script>import {Toast, Button} from 'mand-mobile'
+<script>
+import {Toast, Button} from 'mand-mobile'
 
 export default {
   name: 'toast-demo',
@@ -21,4 +22,5 @@ export default {
     },
   },
 }
-</script>
+
+</script>
